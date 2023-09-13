@@ -83,3 +83,5 @@ console.log('54 / 11 = ', rest, 'Ваш ответ - ', askRes, subj);
 
 //вывод кол-ва ошибок
 console.log('Вы допустили ', err, 'ошибок');
+tempString = 'Вы допустили ' + err + ' ошибок';
+alert(tempString);
